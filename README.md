@@ -1,6 +1,6 @@
 This project has been released for fun.
-The goal it's not too play with it then but too learn and practice.
- try it anyway.
+The goal it's not too play with it but too learn and practice.
+ try it anyway : ) .
 
 # **Giga morpion**'
 
