@@ -55,4 +55,4 @@ def QG(grille):
 
     # il reste à faire le type diagonale
 
-print(QG(grille_fini2))
+#print(QG(grille_fini2))

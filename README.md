@@ -2,7 +2,7 @@ This project has been released for fun.
 The goal it's not too play with it but too learn and practice.
  try it anyway : ) .
 
-# **Giga morpion**'
+# **Giga morpion**
 
 RULES:
 - the player who began place a symbole (O or X) in one of the 9 morpion :
