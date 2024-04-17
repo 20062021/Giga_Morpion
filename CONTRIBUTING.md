@@ -15,12 +15,12 @@ Tous les types de contributions sont encouragés et valorisés. Consultez la [Ta
 ## Table des matières
 
 - [Code de conduite](#code-de-conduite)
-- [J'ai une question](#j'ai-une-question)
+- [J'ai une question](#jai-une-question)
 - [Je veux contribuer](#je-veux-contribuer)
-- [Signaler des bugs](#reporting-bugs)
-- [Suggérer des améliorations](#suggesting-enhancements)
+- [Signaler des bugs](#signaler-des-bugs)
+- [Suggérer des améliorations](#suggérer-des-améliorations)
 - [Votre première contribution au code](#votre-première-contribution-au-code)
-- [Rejoignez l'équipe du projet](#join-the-project-team)
+- [Rejoignez l'équipe du projet](#rejoignez-léquipe-du-projet)
 
 
 ## Code de conduite
