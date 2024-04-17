@@ -61,7 +61,7 @@ Nous nous occuperons alors du problème dans les plus brefs délais.
 Un bon rapport de bug ne devrait pas obliger les autres à vous demander plus d'informations. Par conséquent, nous vous demandons d’enquêter attentivement, de collecter des informations et de décrire le problème en détail dans votre rapport. Veuillez suivre les étapes suivantes à l'avance pour nous aider à corriger tout bug potentiel le plus rapidement possible.
 
 - Assurez-vous que vous utilisez la dernière version.
-- Déterminez si votre bug est vraiment un bug et non une erreur de votre part, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous recherchez de l'aide, vous voudrez peut-être vérifier [ cette section](#j'ai-une-question)).
+- Déterminez si votre bug est vraiment un bug et non une erreur de votre part, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous recherchez de l'aide, vous voudrez peut-être vérifier [cette section](#jai-une-question)).
 - Pour voir si d'autres utilisateurs ont rencontré (et potentiellement déjà résolu) le même problème que vous, vérifiez s'il n'existe pas déjà un rapport de bug pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug ).
 - Assurez-vous également de rechercher sur Internet (y compris Stack Overflow) pour voir si des utilisateurs extérieurs à la communauté GitHub ont discuté du problème.
 - Collecter des informations sur le bug :
@@ -75,7 +75,7 @@ Un bon rapport de bug ne devrait pas obliger les autres à vous demander plus d'
 #### Comment puis-je soumettre un bon rapport de bug ?
 
 > [!CAUTION]
-> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#who-are-we-) en privé.
+> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#crédits) en privé.
 
 
 Nous utilisons les problèmes GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :

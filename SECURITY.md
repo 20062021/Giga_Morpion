@@ -3,4 +3,4 @@ L'application ne collecte aucune donnée personnelle, en revanche, elle utilise 
 
 ## Rapporter une faille de sécurité
 > [!CAUTION]
-> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#who-are-we-) en privé.
+> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#crédits) en privé.
