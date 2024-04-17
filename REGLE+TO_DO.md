@@ -4,4 +4,4 @@
 - si (selon les régles) on doit jouer sur un morpion cloturé. alors on joue sur le morpion précédement joué (si celuui-ci est fini également on reviens au précédent, etc)
 
 - faire une class pour créer le Giga Morpion
-- 
+- pygame retenu pour l'interface graphique
