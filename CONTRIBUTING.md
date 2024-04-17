@@ -64,8 +64,8 @@ Un bon rapport de bug ne devrait pas obliger les autres à vous demander plus d'
 - Déterminez si votre bug est vraiment un bug et non une erreur de votre part, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous recherchez de l'aide, vous voudrez peut-être vérifier [cette section](#jai-une-question)).
 - Pour voir si d'autres utilisateurs ont rencontré (et potentiellement déjà résolu) le même problème que vous, vérifiez s'il n'existe pas déjà un rapport de bug pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug ).
 - Assurez-vous également de rechercher sur Internet (y compris Stack Overflow) pour voir si des utilisateurs extérieurs à la communauté GitHub ont discuté du problème.
-- Collecter des informations sur le bug :
-- Trace de pile (Traceback)
+Collecter des informations sur le bug :
+- Information console (Traceback)
 - Système d'exploitation, plateforme et version (Windows, Linux, macOS, x86, ARM)
 - Version de l'interpréteur, du compilateur, du SDK, de l'environnement d'exécution, du gestionnaire de packages, selon ce qui semble pertinent.
 - Eventuellement votre entrée et la sortie
@@ -75,10 +75,10 @@ Un bon rapport de bug ne devrait pas obliger les autres à vous demander plus d'
 #### Comment puis-je soumettre un bon rapport de bug ?
 
 > [!CAUTION]
-> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#crédits) en privé.
+> Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, dans des issues ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#crédits) en privé.
 
 
-Nous utilisons les problèmes GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
+Nous utilisons les issues GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
 
 - Ouvrez un [Issue](/issues/new). (Comme nous ne pouvons pas être sûrs à ce stade s'il s'agit d'un bug ou non, nous vous demandons de ne pas encore parler d'un bug et de ne pas étiqueter le problème.)
 - Expliquez le comportement auquel vous vous attendez et le comportement réel.
@@ -88,8 +88,8 @@ Nous utilisons les problèmes GitHub pour suivre les bugs et les erreurs. Si vou
 Une fois déposé :
 
 - L'équipe du projet tagera l'issue ouverte en conséquence.
-- Un membre de l'équipe tentera de reproduire le problème en suivant les étapes fournies. S'il n'y a aucune étape de reproduction ou aucun moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera le problème comme « nécessite une reproduction ». Les bugs portant l'étiquette « nécessite-reproduction » ne seront pas résolus tant qu'ils ne seront pas reproduits.
-- Si l'équipe est capable de reproduire le problème, il sera marqué « nécessite un correctif », ainsi que éventuellement d'autres balises (telles que « critique »), et le problème sera [laissé à quelqu'un] (# votre-première-contribution-au-code).
+- Un membre de l'équipe tentera de reproduire le problème en suivant les étapes fournies. S'il n'y a aucune étape de reproduction ou aucun moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera le problème comme « nécessite une reproduction ». Les bugs portant l'étiquette « need-repro » ne seront pas résolus tant qu'ils ne seront pas reproduits.
+- Si l'équipe est capable de reproduire le problème, il sera marqué comme « awating-someone-to-fix », ainsi que éventuellement d'autres balises (telles que « critical »), et le problème sera [laissé à quelqu'un] (# votre-première-contribution-au-code).
 
 
 
