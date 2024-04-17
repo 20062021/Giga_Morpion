@@ -9,6 +9,7 @@ print(f'X est une croix, O est un rond -----------------------------------------
 grille_fini = [['O','O','X'], ['O','X','O'], ['O','X','X']]
 grille_fini2 = [['X','O','X'], ['X','O','O'], ['O','X','X']]
 grille_fini3 = [['X','O','O'], ['O','X','X'], ['O','X','O']]
+grille_fini4 = [['X',None,None], ['O',None,'X'], ['O',None,'O']]
 
 
 def QG(grille):
@@ -53,6 +54,5 @@ def QG(grille):
         print('\n')
     return f"personne n'as gagné !"
 
-    # il reste à faire le type diagonale
 
-#print(QG(grille_fini2))
+print(QG(grille_fini4))
