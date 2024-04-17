@@ -74,7 +74,7 @@ Un bon rapport de bug ne devrait pas obliger les autres à vous demander plus d'
 
 #### Comment puis-je soumettre un bon rapport de bug ?
 
-> [!ATTENTION]
+> [!CAUTION]
 > Vous ne devez jamais signaler les problèmes, vulnérabilités ou bugs liés à la sécurité, y compris les informations sensibles, au système de suivi des problèmes ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés à [un membre de notre équipe](README.md#who-are-we-) en privé.
 
 
@@ -136,7 +136,7 @@ Une fois votre demande approuvée, votre code sera ajouté à la branche princip
 > - N'utilisez pas de fonction obsolète.
 > - Et enfin, s'il vous plaît, essayez de ne pas utiliser chatGPT ou toute autre IA pour générer votre code. C’est le moyen le plus simple de proposer quelque chose que vous pensez comprendre, mais cela entraîne également des effets secondaires qui peuvent provoquer des bugs.
 
-> [!ASTUCE]
+> [!TIP]
 > Si vous ne vous sentez pas suffisamment expérimenté pour écrire du code seul, demandez de l'aide à quelqu'un d'autre, essayez de coder une fonctionnalité la plus simple ou réalisez quelques projets avec TypeScript avant de contribuer à ce projet.
 
 ## Rejoignez l'équipe du projet
