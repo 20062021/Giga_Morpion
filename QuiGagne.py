@@ -43,7 +43,7 @@ def QG(grille):
     grille_découpé = (lignes, colones, diagonales)
     victoire_en = ('ligne', 'colone', 'diagonale')
 
-    # si 3 croix ou 3 ronds ne forment pas des lignes (sont alignès), pas de victoire
+    # si 3 croix ou 3 ronds ne forment pas des lignes (sont alignès), pas de victoire tesrt
     for types in grille_découpé:
         for rang_x in types:
             if rang_x[0] == rang_x[1] == rang_x[2] and rang_x[0] != None:
