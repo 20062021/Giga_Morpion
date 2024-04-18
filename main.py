@@ -1,4 +1,5 @@
 from QuiGagne import *
+from pygame import *
 
 print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
 
