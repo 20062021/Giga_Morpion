@@ -77,7 +77,13 @@ class Morpion:
         self.body[position] = char
 
     def display(self):
-        print(self.body)
+        to_display = ""
+        for i in range(len(self.body)):
+            to_display += self.body[i]
+            if i % 3 == 0:
+                to_display += "\n"
+            else:
+                to_display += " "
 
 m = Morpion()
 m.display()
