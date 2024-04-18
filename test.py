@@ -69,6 +69,17 @@ class Giga_Morpion:
 class Morpion:
     def __init__(self):
 
-        self.body = [[], [], [],
-                     [], [], [],
-                     [], [], []]
+        self.body = [" ", " ", " ",
+                     " ", " ", " ",
+                     " ", " ", " "]
+
+    def play(self, position, char):
+        self.body[position] = char
+
+    def display(self):
+        print(self.body)
+
+m = Morpion()
+m.display()
+m.play(4, "X")
+m.display()
