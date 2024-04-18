@@ -46,7 +46,7 @@ def QG(grille):
     # si 3 croix ou 3 ronds ne forment pas des lignes (sont alignès), pas de victoire
     for types in grille_découpé:
         for rang_x in types:
-            if rang_x[0] == rang_x[1] == rang_x[2]:
+            if rang_x[0] == rang_x[1] == rang_x[2] and rang_x[0] != None:
                 return f'{rang_x[0], rang_x[1], rang_x[2]}  ->  la personne jouant; {rang_x[0]}, à gagné en {victoire_en[grille_découpé.index(types)]}'
             else:
                 print(f"{rang_x[0], rang_x[1], rang_x[2]}   ->  personne ne gagne sur cet {victoire_en[grille_découpé.index(types)]}")

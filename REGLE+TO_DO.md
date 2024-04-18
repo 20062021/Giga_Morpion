@@ -5,5 +5,5 @@
 
 - faire une class pour créer le Giga Morpion
 - pygame retenu pour l'interface graphique
-- adapter QuiGagne pour qu'il puisse traiter des grille pas fini, None si case pas rempli
-    -> pb ici (avec grille_fini4 par ex) c'est que la grille gagne avec trois None alligner
+'''- adapter QuiGagne pour qu'il puisse traiter des grille pas fini, None si case pas rempli
+    -> pb ici (avec grille_fini4 par ex) c'est que la grille gagne avec trois None alligner''' fait
