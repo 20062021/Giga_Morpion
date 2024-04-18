@@ -27,5 +27,9 @@ def affiche_la_grille(grille):
     a = f"{grille_en_ligne}\n{grille_en_colone}"
     return a
 
-print(affiche_la_grille(grille_fini2))
+# on sécurise le programme principal à l'interieur d'une fonction
+def programme():
+    print(affiche_la_grille(grille_fini2))
 
+#on appelle le programme uniquement si ce fichier spécifiquement à été exécuté
+if __name__ == "__main__" : programme()
