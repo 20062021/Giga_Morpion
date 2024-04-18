@@ -3,8 +3,6 @@ from pygame import *
 class Giga_Morpion:
     def __init__(self):
         # GM : Giga Morpion
-        # j'ai pensé a faire ça avec un dico
-
         GM = {1:[[None, None, None],
                 [None, None, None],
                 [None, None, None]],
@@ -32,6 +30,8 @@ class Giga_Morpion:
               9:[[None, None, None],
                 [None, None, None],
                 [None, None, None]]}
+
+        # j'ai pensé a faire ça avec un dico
 
 
         GM = [[[[None, None, None],
