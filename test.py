@@ -30,8 +30,7 @@ class Giga_Morpion:
               9:[[None, None, None],
                 [None, None, None],
                 [None, None, None]]}
-
-        # j'ai pensé a faire ça avec un dico
+# j'ai pensé a faire ça avec un dico
 
 
         GM = [[[[None, None, None],
