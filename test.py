@@ -69,22 +69,20 @@ class Giga_Morpion:
 class Morpion:
     def __init__(self):
 
-        self.body = [" ", " ", " ",
-                     " ", " ", " ",
-                     " ", " ", " "]
+        self.body = ["-", "-", "-",
+                     "-", "-", "-",
+                     "-", "-", "-"]
 
     def play(self, position, char):
         self.body[position-1] = char
 
     def display(self):
-        to_display = ""
         for i in range(len(self.body)):
-            to_display += self.body[i]
-            if i % 3 == 0:
-                to_display += "\n"
+            if i % 3 == 0 and i > 0:
+                print(self.body[i])
             else:
-                to_display += " "
-
+                print(self.body[i], end="")
+        print("\n_______________________________________________________")
 m = Morpion()
 m.display()
 m.play(4, "X")
