@@ -10,4 +10,4 @@
 - [ ] Créer un objet petit Morpion 
 - [ ] Créer un objet Méga Morpion compatible avec les petits morpions
 - [ ] Mettre en place le setup pygame
-- [ ]
+- [ ] 
