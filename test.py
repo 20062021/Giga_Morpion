@@ -29,3 +29,16 @@ class Giga_Morpion:
         pass
     def __repr__(self):
         pass
+
+
+
+
+
+
+
+class Morpion:
+    def __init__(self):
+
+        self.body = [[], [], [],
+                     [], [], [],
+                     [], [], []]
