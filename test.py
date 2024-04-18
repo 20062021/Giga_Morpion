@@ -2,7 +2,37 @@ from pygame import *
 
 class Giga_Morpion:
     def __init__(self):
-        '''GM = {1:[], 2:[], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[], 9:[]}  # GM Giga Morpion''' #j'ai pensé a faire ça avec un dico
+        # GM : Giga Morpion
+        GM = {1:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              2:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              3:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              4:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              5:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              6:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              7:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              8:[[None, None, None],
+                [None, None, None],
+                [None, None, None]],
+              9:[[None, None, None],
+                [None, None, None],
+                [None, None, None]]}
+# j'ai pensé a faire ça avec un dico
+
+
         GM = [[[[None, None, None],
                 [None, None, None],
                 [None, None, None]], [[None, None, None],
@@ -10,7 +40,20 @@ class Giga_Morpion:
                                       [None, None, None]], [[None, None, None],
                                                             [None, None, None],
                                                             [None, None, None]]],
-              []]
+              [[[None, None, None],
+                [None, None, None],
+                [None, None, None]], [[None, None, None],
+                                      [None, None, None],
+                                      [None, None, None]], [[None, None, None],
+                                                            [None, None, None],
+                                                            [None, None, None]]],
+              [[[None, None, None],
+                [None, None, None],
+                [None, None, None]], [[None, None, None],
+                                      [None, None, None],
+                                      [None, None, None]], [[None, None, None],
+                                                            [None, None, None],
+                                                            [None, None, None]]]]  # louis pense faire ça avec des listes
         self.GM = GM
     def __str__(self):
         pass
