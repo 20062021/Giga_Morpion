@@ -74,7 +74,7 @@ class Morpion:
                      " ", " ", " "]
 
     def play(self, position, char):
-        self.body[position] = char
+        self.body[position-1] = char
 
     def display(self):
         to_display = ""
