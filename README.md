@@ -4,10 +4,12 @@
 
 # **Giga morpion**
 
-RULES:
-- Le joueur qui commence place un symbole (O ou X) dans une des 9 cases du giga morpion ;
-- À tour de rôle, les joueur placent leur symbole de la même manière ;
-- Si un joueur aligne 3 de ses symboles, en ligne, colone, profondeur, ou diagonale, il gagne la partie.
+## *Règles :*
+
+- pour le premier joueur qui joue, tte les cases sont disponibles (à cocher) (ça doit etre visuel)
+- ensuite le deuxieme joueur ne peux cocher que certaines cases (celle d'un morpion sur les 9), et ainsi de suite
+- si une grille est fini, on ne peut plus rien poser dessus.
+- si (selon les régles) on doit jouer sur un morpion cloturé. alors on joue sur le morpion précédement joué (si celuui-ci est fini également on reviens au précédent, etc)
 
 > [!WARNING]
 > Ce projet n'est qu'en développement, et ne fonctionnera pas sur tout les commits de [main](https://github.com/20062021/Giga_Morpion)
