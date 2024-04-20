@@ -1,6 +1,9 @@
 from QuiGagne import *
 from pygame import *
 
+"""
+def
+"""
 def affiche_la_grille(grille):
     colone1, colone2, colone3 = [], [], []
     ligne1 = grille[0]
