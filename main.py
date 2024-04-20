@@ -1,9 +1,6 @@
 from QuiGagne import *
 from pygame import *
 
-print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
-
-
 def affiche_la_grille(grille):
     colone1, colone2, colone3 = [], [], []
     ligne1 = grille[0]
@@ -30,6 +27,7 @@ def affiche_la_grille(grille):
 
 # on sécurise le programme principal à l'interieur d'une fonction
 def programme():
+    print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
     print(affiche_la_grille(grille_fini2))
 
 #on appelle le programme uniquement si ce fichier spécifiquement à été exécuté

@@ -1,7 +1,4 @@
 #from main import affiche_la_grille
-
-print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
-
 #une_grille_type = [[None,None,None],[None,None,None],[None,None,None]]
 # une liste pour une ligne, trois forment une grille de morpion 3*3
 
