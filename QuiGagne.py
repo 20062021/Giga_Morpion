@@ -36,13 +36,8 @@ def QG(grille:Tgrille) -> str :
         for i in range(3):
             if grille.index(ligne) == i:
                 diagonale_GD.append(ligne[i])
-
-    grille_renversée = [colone3, colone2, colone1]
-
-    for colone in grille_renversée:
-        for i in range(3):
-            if grille_renversée.index(colone) == i:
-                diagonale_DG.append(colone[i])
+            elif grille.index(ligne) == (ligne.__len__() - 1) - i :
+                diagonale_DG.append(ligne[i])                
 
     lignes = [ligne1, ligne2, ligne3]
     colones = [colone1, colone2, colone3]
