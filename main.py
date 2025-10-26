@@ -34,5 +34,5 @@ def programme():
     print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
     print(affiche_la_grille(grille_fini2))
 
-#on appelle le programme uniquement si ce fichier spécifiquement à été exécuté
+#on appelle le programme uniquement si ce fichier spécifiquement a été exécuté
 if __name__ == "__main__" : programme()
