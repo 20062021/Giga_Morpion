@@ -14,8 +14,7 @@ communauté diversifiée, inclusive et saine.
 
 ## Nos normes
 
-Exemples de comportements qui contribuent à un environnement positif pour notre
-la communauté comprend :
+Exemples de comportements qui contribuent à un environnement positif pour notre communauté comprend :
 
 * Faire preuve d'empathie et de gentillesse envers les autres
 * Être respectueux des différentes opinions, points de vue et expériences
@@ -23,7 +22,7 @@ la communauté comprend :
 * Accepter la responsabilité et présenter ses excuses aux personnes touchées par nos erreurs,
 et apprendre de l'expérience
 * Se concentrer sur ce qui est le mieux non seulement pour nous en tant qu'individus, mais aussi pour
-communauté dans son ensemble
+communauté dans son ensemble.
 
 Voici des exemples de comportements inacceptables :
 
@@ -38,9 +37,8 @@ cadre professionnel
 ## Responsabilités d'application
 
 Les dirigeants communautaires sont responsables de clarifier et de faire respecter nos normes de
-comportement acceptable et prendra des mesures correctives appropriées et équitables
-réponse à tout comportement qu'ils jugent inapproprié, menaçant, offensant,
-ou nuisible.
+comportement acceptable et prendra des mesures correctives appropriées et équitables en
+réponse à tout comportement qu'ils jugent inapproprié, menaçant, offensant, ou nuisible.
 
 Les dirigeants de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter
 commentaires, commits, code, modifications du wiki, problèmes et autres contributions qui sont
