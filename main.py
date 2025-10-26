@@ -1,38 +1,46 @@
-from QuiGagne import *
-from pygame import *
+#--------------------------------------
+#--------------- IMPORT ---------------
+#--------------------------------------
+import inspect
 
-"""
-def
-"""
-def affiche_la_grille(grille:Tgrille):
-    colone1, colone2, colone3 = [], [], []
+from QuiGagne import *
+#from pygame import *
+
+
+
+#--------------------------------------
+#-------------- FUNCTIONS -------------
+#--------------------------------------
+def affiche_la_grille(grille:Tgrille): #affichage en ligne
     ligne1 = grille[0]
     ligne2 = grille[1]
     ligne3 = grille[2]
 
-    for i in grille:
-        colone1.append(i[0])
-        colone2.append(i[1])
-        colone3.append(i[2])
+    grille = [ligne1, ligne2, ligne3]
 
-    grille_en_ligne = (f"{ligne1}\n"
-                       f"{ligne2}          ↓ vue réel\n"
-                       f"{ligne3}\n")
+    for decoupage_ligne in grille:
+        print(f"{decoupage_ligne[0]} {decoupage_ligne[1]} {decoupage_ligne[2]}")
 
-    # ↑↓→←
 
-    grille_en_colone = (f"{colone1}\n"
-                        f"{colone2}          ← vue de la gauche\n"
-                        f"{colone3}\n")
 
-    a = f"{grille_en_ligne}\n{grille_en_colone}"
-    return a
-
-# on sécurise le programme principal à l'interieur d'une fonction
+#--------------------------------------
+#---------------- MAIN ----------------
+#--------------------------------------
 def programme():
     """ Exécute le programme principal """
-    print(f'X est une croix, O est un rond ---------------------------------------------------- \n')
-    print(affiche_la_grille(grille_fini2))
+    print(f"////////////////////////// INITIALISATION //////////////////////////\n"
+          f"//   INFORMATION                                                  //\n"
+          f"//    - X est une croix;                                          //\n"
+          f"//    - O est un rond.                                            //\n"
+          f"////////////////////////////////////////////////////////////////////\n")
 
-#on appelle le programme uniquement si ce fichier spécifiquement a été exécuté
-if __name__ == "__main__" : programme()
+    affiche_la_grille(grille_fini)
+    QuiGagne(grille_fini)
+    affiche_la_grille(grille_fini2)
+    QuiGagne(grille_fini2)
+    affiche_la_grille(grille_fini3)
+    QuiGagne(grille_fini3)
+    affiche_la_grille(grille_fini4)
+    QuiGagne(grille_fini4)
+
+if __name__ == "__main__" : programme() #on appelle le programme uniquement si ce fichier spécifiquement a été exécuté
