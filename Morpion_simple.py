@@ -1,3 +1,9 @@
+"""scrip pour partie classique
+print(f"\n> DEBUT :"); grille_partie1 = partie_classique(nouvelle_grille())
+if grille_gagnante(grille_partie1): print(f"\n> FIN : Le joueur jouant {qui_gagne(grille_partie1)} a gagné.")
+else: print(f"\n> FIN : Pas de gagnant.")
+"""
+
 #--------------------------------------
 #--------------- GLOBAL ---------------
 #--------------------------------------
@@ -193,11 +199,16 @@ def jouer_une_forme(grille:Tgrille, forme:str, position:int) -> Tgrille:
     return grille
 
 
-def partie_classique(grille:Tgrille) -> Tgrille:
+def partie_classique() -> Tgrille:
+    """Jouer une partie de Morpion classique
+    Args :
+        None
+
+    Returns :
+        [Tgrille] : la grille de jeu finit
     """
 
-    """
-
+    grille = nouvelle_grille()
     forme_precedente: str = input(f"Qui commence ? X/O : ")
     while not grille_finit(grille):
         jouer_une_forme(grille, forme_precedente, reflechir(grille))
