@@ -8,9 +8,9 @@
 
 - [ ] Dans main, lors de l'initialisation, présenter la grille simple avec case numéroté
 - [ ] regarder pour comment créer un type ; pour Tgrille
-- [ ] Faire une structure Joueur
-- [ ] Faire une structure Morpion simple
-- [ ] créer grille_vide()
+- [ ] Faire une class Joueur
+- [ ] Faire une class Morpion simple (plus besoin d'un fichier à part ?)
+- [x] créer grille_vide()
 
 ## Amélioration :
 
