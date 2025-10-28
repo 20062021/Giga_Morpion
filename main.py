@@ -10,20 +10,38 @@ from Morpion_simple import *
 #--------------- GLOBAL ---------------
 #--------------------------------------
 class Joueur:
-    """Désigne les joueurs du Morpion
-    Attributes :
+    """Un joueur du Morpion
+    Args :
         pseudo [str] : pseudo du joueur
+        
+    Attributes :
+        __pseudos [list(str)] : liste des pseudos utilisés par les joueurs
 
     Methods :
 
     """
 
-    def __init__(self): #constructeur
-        self.pseudo = str(input("Quelle est votre pseudo ? : "))
-        self.forme_pref = str(input("Quelle est votre forme préféré ? X/O : "))
+    __pseudos:list = []
 
-    def changer_pseudo(self):
-        self.pseudo = str(input("Quelle est votre nouveau pseudo ? : "))
+    def __init__(self, pseudo:str): #constructeur
+        print(f"\n> : Creation du joueur")
+        self.__pseudo:str = pseudo #attribut privé
+
+    @property #accesseur de l'attribut pseudo
+    def pseudo(self): return self.__pseudo
+
+    @pseudo.setter #mutateur de l'attribut pseudo
+    def pseudo(self, pseudo:str):
+        """changer de pseudo"""
+        print(f"> DEBUG : @pseudo.setter")
+        if pseudo not in self.__pseudos:
+            self.__pseudo = pseudo; self.__pseudos.append(pseudo)
+        else: print(f"\n> ATTENTION : '{pseudo}' est déjà prit.\n")
+
+    @classmethod #méthode de class
+    def afficher_pseudos(cls):
+        """afficher les pseudos utilisés par les joueurs"""
+        return cls.__pseudos
 
 #--------------------------------------
 #-------------- FUNCTIONS -------------
@@ -76,8 +94,8 @@ def programme():
     else: print(f"\n> FIN : Pas de gagnant.")
     """
 
-    J1 = Joueur(); print(J1.__doc__) #affiche le paragraphe de documentation de la class de la variable J1
-    J1.pseudo = "antonin"; print(f"pseudo J1 = {J1.pseudo}\n")
-
+    J1 = Joueur()
+    print(f"\nJ1.pseudo = {J1.pseudo}")
+    J2 = Joueur()
 
 if __name__ == "__main__" : programme() #on appelle le programme uniquement si ce fichier spécifiquement a été exécuté
