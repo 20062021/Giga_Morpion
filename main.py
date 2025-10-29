@@ -3,6 +3,8 @@
 #--------------------------------------
 
 from Morpion_simple import *
+MS = MorpionSimple() #creation d'un alias pour la class MorpionSimple
+
 #from pygame import *
 
 
@@ -23,9 +25,8 @@ class Joueur:
 
     __pseudos:list = []
 
-    def __init__(self, pseudo:str): #constructeur
-        print(f"\n> : Creation du joueur")
-        self.__pseudo:str = pseudo #attribut privé
+    def __init__(self): #constructeur
+        self.__pseudo:str = '' #attribut privé
 
     @property #accesseur de l'attribut pseudo
     def pseudo(self): return self.__pseudo
@@ -33,15 +34,18 @@ class Joueur:
     @pseudo.setter #mutateur de l'attribut pseudo
     def pseudo(self, pseudo:str):
         """changer de pseudo"""
-        print(f"> DEBUG : @pseudo.setter")
         if pseudo not in self.__pseudos:
-            self.__pseudo = pseudo; self.__pseudos.append(pseudo)
-        else: print(f"\n> ATTENTION : '{pseudo}' est déjà prit.\n")
+            self.__pseudo = pseudo; Joueur.__pseudos.append(pseudo)
+        else:
+            print(f"\n> ATTENTION : '{pseudo}' est déjà prit.\n")
+            print(f"liste des pseudos déjà prit : {self.__pseudos}")
+            self.pseudo = input("Choisissez un autre pseudo : ") #recursif
 
     @classmethod #méthode de class
-    def afficher_pseudos(cls):
+    def avoir_pseudos(cls):
         """afficher les pseudos utilisés par les joueurs"""
         return cls.__pseudos
+
 
 #--------------------------------------
 #-------------- FUNCTIONS -------------
@@ -59,43 +63,28 @@ def programme():
           f"//    - O est un rond.                                            //\n"
           f"////////////////////////////////////////////////////////////////////\n")
 
+
     """
-    a=''
-
-    affiche_la_grille(grille_fini)
-    if (Grille_gagnante(QuiGagne(grille_fini))): a = f"> FIN : Le gagnant est {QuiGagne(grille_fini)}.\n"
-    else: a = f"> !! Pas de gagnant\n"
-    print(a)
-
-    affiche_la_grille(grille_fini2)
-    if (Grille_gagnante(QuiGagne(grille_fini2))): a = f"> FIN : Le gagnant est {QuiGagne(grille_fini2)}.\n"
-    else: a = f"> !! Pas de gagnant\n"
-    print(a)
-
-    affiche_la_grille(grille_fini3)
-    if (Grille_gagnante(QuiGagne(grille_fini3))): a = f"> FIN : Le gagnant est {QuiGagne(grille_fini3)}.\n"
-    else: a = f"> !! Pas de gagnant\n"
-    print(a)
-
-    affiche_la_grille(grille_fini4)
-    if (Grille_gagnante(QuiGagne(grille_fini4))): a = f"> FIN : Le gagnant est {QuiGagne(grille_fini4)}.\n"
-    else: a = f"> !! Pas de gagnant\n"
-    print(a)
+    afficher_la_grille(partie_classique()[0])
     """
 
     """
-    forme: str = input("Quelle est votre forme ? X/O : ")
-    jouer_une_forme(grille_finit1, forme, reflechir(grille_finit1))
-    """
-
-    """
-    print(f"\n> DEBUT :"); grille_partie1 = partie_classique(nouvelle_grille())
-    if grille_gagnante(grille_partie1): print(f"\n> FIN : Le joueur jouant {qui_gagne(grille_partie1)} a gagné.")
-    else: print(f"\n> FIN : Pas de gagnant.")
-    """
-
     J1 = Joueur()
-    print(f"\nJ1.pseudo = {J1.pseudo}")
+    pseudo:str = str(input("Choisissez un pseudo : "))
+    J1.pseudo = pseudo
+
+    print(f"> DEBUG : Joueur.avoir_pseudos() = {Joueur.avoir_pseudos()}")
+
     J2 = Joueur()
+    pseudo: str = str(input("Choisissez un pseudo : "))
+    J2.pseudo = pseudo
+
+    print(f"> DEBUG : Joueur.avoir_pseudos() = {Joueur.avoir_pseudos()}")
+    """
+
+    grille_jeu_1 = MS
+    gj1 = grille_jeu_1 #création d'un alias pour l'instance grille_jeu_1 de la class MorpionSimple
+    gj1.afficher_la_grille(gj1.grille)
+    gj1.afficher_la_grille(gj1.partie_classique()[0])
 
 if __name__ == "__main__" : programme() #on appelle le programme uniquement si ce fichier spécifiquement a été exécuté
